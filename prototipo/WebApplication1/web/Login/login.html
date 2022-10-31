@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous">    </script>
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <main class="container">
+        <h2>Login <a href="../index.html">Voltar</a></h2>
+        <form action="validar.jsp" method="post">
+            <div class="input-field">
+                <input type="email" name="email"
+                placeholder="Insira seu Email ">
+                <div class="underline"></div>
+                
+            </div>
+
+            <div class="input-field">
+                <input type="password" name="password" id="password"
+                placeholder="Insira sua Senha">
+                <div class="underline"></div>
+                
+            </div>
+            <input type="submit" value="Continue" onclick="location.href = '../Perfil/perfil.jsp'">
+
+        </form>
+        
+        <div class="footer">
+            <span>Não possui uma conta? <a href="../Register/registro.html">Registre-se aqui</a></span>
+            <span>Conecte-se com sua rede social</span>
+            <div class="social-fields">
+                <div class="social-field google">
+                    <a href="#">
+                        <i class="fab fa-google"></i>
+                        sign in with Google
+                    </a>
+                </div>
+                    <div class="social-field facebook">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                            sign in with Facebook
+                        </a>
+                    </div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous">    </script>
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Registrar-se</title>
+</head>
+<body>
+    <main class="container">
+        <h2>Registro <a href="../index.html">Voltar</a></h2>
+        <form action="cadastrarUsuario.jsp" method="post">
+            <div class="input-field">
+                <input type="text" name="Username"
+                placeholder="Insira seu Nome ">
+                <div class="underline"></div>
+                
+            </div>
+            
+            <div class="input-field">
+                <input type="email" name="email"
+                placeholder="Insira seu Email">
+                <div class="underline"></div>
+                
+            </div>
+
+
+            <div class="input-field">
+                <input type="number" name="telefone"
+                placeholder="Insira seu Telefone">
+                <div class="underline"></div>
+                
+            </div>
+
+            <div class="input-field">
+                <input type="number" name="cep" id="cep"
+                placeholder="Insira seu CEP">
+                <div class="underline"></div>
+                
+            </div>
+
+            <div class="input-field">
+                <input type="text" name="rua" id="rua"
+                placeholder="Insira sua Rua">
+                <div class="underline"></div>
+                
+            </div>
+
+            <div class="input-field">
+                <input type="text" name="bairro" id="bairro"
+                placeholder="Insira seu Bairro">
+                <div class="underline"></div>
+                
+            </div>
+
+            <div class="input-field">
+                <input type="text" name="cidade" id="cidade"
+                placeholder="Insira sua cidade">
+                <div class="underline"></div>
+                
+            </div>
+
+            <div class="input-field">
+                <input type="text" name="estado" id="estado"
+                placeholder="Insira seu Estado">
+                <div class="underline"></div>
+                
+            </div>
+
+            <div class="input-field">
+                <input type="number" name="CPF"
+                placeholder="Insira seu CPF">
+                <div class="underline"></div>
+                
+            </div>
+
+            <div class="input-field" id="last">
+                <input type="password" name="password"
+                placeholder="Insira sua Senha">
+                <div class="underline"></div>
+                
+            </div>
+            <input type="submit" value="Continue">
+
+        </form>
+        
+        <div class="footer">
+            <span>Ja possui uma conta? <a href="../Login/login.html">Conecte-se aqui</a></span>
+            <span>Registre-se com sua rede social</span>
+            <div class="social-fields">
+                <div class="social-field google">
+                    <a href="#">
+                        <i class="fab fa-google"></i>
+                        sign in with Google
+                    </a>
+                </div>
+                    <div class="social-field facebook">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                            sign in with Facebook
+                        </a>
+                    </div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+<script src="../js/main.js"></script>
+</html>
